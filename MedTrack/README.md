@@ -21,7 +21,7 @@ Diante desse cenário eu usei meu conhecimento em SQL Server para desenvolver o 
 
 
 ## 🏗️ Estrutura do Banco de Dados
-O banco de dados é modelado para ser modular e escalável, separando as responsabilidades em tabelas principais, transacionais e de associação. **A criação das tabelas esta no arquivo MedTrackScript**.
+O banco de dados é modelado para ser modular e escalável, separando as responsabilidades em tabelas principais, transacionais e de associação. **A criação das tabelas esta no arquivo [MedTrackScript](MedTrackScript.sql)**.
 
 Tabelas Principais:
 - Pacientes: Armazena os dados cadastrais dos pacientes (nome, CPF, data de nascimento, alergias, etc.).
@@ -48,7 +48,7 @@ Tabelas de Associação (Muitos-para-Muitos):
 ## 🚀 Recursos Avançados
 Para demonstrar conhecimentos além da simples modelagem, o projeto inclui exemplos de código SQL que automatizam processos e otimizam consultas.
 
-Stored Procedures: **localizado em [MedTrackProcedure](MedTrackScript.sql)**.
+Stored Procedures: **localizado em [MedTrackProcedure](MedTrackProcedure.sql)**.
 
 sp_RegistrarAtendimentoCompleto: Encapsula toda a lógica para criar um novo atendimento e seu prontuário correspondente dentro de uma transação atômica. Isso garante que ou todos os dados são salvos com sucesso, ou nada é alterado, mantendo a integridade do banco.
 
