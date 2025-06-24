@@ -21,7 +21,7 @@ Diante desse cenário eu usei meu conhecimento em SQL Server para desenvolver o 
 
 
 ## 🏗️ Estrutura do Banco de Dados
-O banco de dados é modelado para ser modular e escalável, separando as responsabilidades em tabelas principais, transacionais e de associação.
+O banco de dados é modelado para ser modular e escalável, separando as responsabilidades em tabelas principais, transacionais e de associação. **A criação das tabelas esta no arquivo MedTrackScript**.
 
 Tabelas Principais:
 - Pacientes: Armazena os dados cadastrais dos pacientes (nome, CPF, data de nascimento, alergias, etc.).
@@ -48,21 +48,25 @@ Tabelas de Associação (Muitos-para-Muitos):
 ## 🚀 Recursos Avançados
 Para demonstrar conhecimentos além da simples modelagem, o projeto inclui exemplos de código SQL que automatizam processos e otimizam consultas.
 
-Stored Procedures:
+Stored Procedures: **localizado em [MedTrackProcedure](MedTrackScript.sql)**.
 
 sp_RegistrarAtendimentoCompleto: Encapsula toda a lógica para criar um novo atendimento e seu prontuário correspondente dentro de uma transação atômica. Isso garante que ou todos os dados são salvos com sucesso, ou nada é alterado, mantendo a integridade do banco.
 
-Triggers:
+Triggers: **localizado em [MedTrackTrigger](MedTrackTrigger.sql)**.
 
 trg_AtualizaDataSaidaProntuario: Um gatilho que dispara automaticamente após a inserção de um registro na tabela LaudoAlta. Ele atualiza o prontuário correspondente com a data e hora da saída, automatizando o processo de alta e garantindo que a informação esteja sempre correta.
 
-Índices (Otimização de Performance):
+Índices (Otimização de Performance): **localizado em [MedTrackIndex](MedTrackIndex.sql)**.
 
 Foram criados índices não-clusterizados em colunas-chave para acelerar a performance de consultas, especialmente em:
 
 Chaves Estrangeiras (Foreign Keys): Como IdPaciente e IdFuncionario na tabela Atendimentos, otimizando drasticamente as operações de JOIN.
 
 Colunas de Busca Frequente: Como NomePaciente na tabela Pacientes e DataHora na tabela Atendimentos, melhorando a velocidade de filtros e relatórios.
+
+Foram feitas inserções fictícias em **[MedTrackInsert](MedTrackInsert.sql)** 
+
+Consultas estão detalhadas em **[MedTrackSelect](MedTrackSelect.sql)**
 
 ## Agradecimentos
 Este projeto é o resultado da união entre experiência prática e conhecimento técnico, criado para ser uma ferramenta robusta, confiável e performática. Estou animada para aplicar essa mesma mentalidade de resolução de problemas em desafios profissionais futuros. **Obrigada pelo interesse**.
