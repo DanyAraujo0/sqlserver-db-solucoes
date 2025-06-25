@@ -1,6 +1,6 @@
 # MedTrack - Sistema de Gerenciamento de Atendimentos Médicos
 
-Este repositório contém o projeto de um banco de dados relacional completo, chamado MedTrack, projetado para o gerenciamento de atendimentos e prontuários médicos em um ambiente hospitalar. O sistema foi desenvolvido em SQL Server e inclui não apenas a estrutura das tabelas, mas também uma lógica avançada com Stored Procedures, Triggers e uma estratégia de indexação para otimização de performance.
+Nesta pasta contém o projeto de um banco de dados relacional completo, chamado MedTrack, projetado para o gerenciamento de atendimentos e prontuários médicos em um ambiente hospitalar. O sistema foi desenvolvido em SQL Server e inclui não apenas a estrutura das tabelas, mas também uma lógica avançada com Stored Procedures, Triggers e uma estratégia de indexação para otimização de performance.
 
 
 ## 💡 Motivação

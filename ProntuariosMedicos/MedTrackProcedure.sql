@@ -44,8 +44,8 @@ EXEC sp_RegistrarAtendimentoCompleto
     @IdFuncionario = 3,
     @IdSintoma = 2,
     @DataHora = '2025-06-25 15:30:00',
-    @TipoRisco = 'Baixo',
+    @TipoRisco = 'ALto',
     @Observacoes = 'Paciente queixa-se de enxaqueca recorrente.',
-    @Diagnostico = 'Migrânea crônica',
+    @Diagnostico = 'Minengite',
     @Receita = 'Sumatriptano 50mg em caso de crise.',
     @Encaminhamento = 'Agendar consulta com neurologista.';
