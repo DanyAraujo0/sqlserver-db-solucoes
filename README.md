@@ -11,7 +11,7 @@ Este repositório reúne dois projetos desenvolvidos com foco prático, usando *
 
 ## 📂 Estrutura dos Projetos
 
-### 🏥 Projeto 1: Sistema de Prontuário Eletrônico (Saúde)
+### 🏥 Projeto 1: Sistema de Prontuário Eletrônico (MedTrack)
 Simula um sistema de gestão clínica com foco em pacientes, médicos e atendimentos.
 
 **Recursos implementados:**
@@ -21,11 +21,12 @@ Simula um sistema de gestão clínica com foco em pacientes, médicos e atendime
 - Triggers para log de alterações no prontuário
 - Funções para cálculo de idade e geração de código de atendimento
 
-📁 Pasta: `01-projeto-saude-prontuario/`
+📁 Pasta: [ProntuariosMedicos](ProntuariosMedicos/) 
+Entenda mais sobre o projeto [ProntuariosMedicos](ProntuariosMedicos/README.md)
 
 ---
 
-### 🎓 Projeto 2: Sistema Acadêmico de Gestão de Alunos (Educação)
+### 🎓 Projeto 2: Sistema Acadêmico de Gestão de Alunos (SchoolBd)
 Simula um ambiente escolar com controle de alunos, cursos, matrículas e notas.
 
 **Recursos implementados:**
@@ -34,6 +35,9 @@ Simula um ambiente escolar com controle de alunos, cursos, matrículas e notas.
 - Views para boletim do aluno, média por disciplina e evasão
 - Triggers de validação (ex: impedir matrícula duplicada)
 - Funções para classificação de alunos com `RANK()` e `CTEs`
+
+📁 Pasta: [GestaoEscolar](GestaoEscolar/)
+Entenda mais sobre o projeto [GestaoEscolar](GestaoEscolar/README.md)
 
 ---
 
@@ -45,6 +49,7 @@ Simula um ambiente escolar com controle de alunos, cursos, matrículas e notas.
 ---
 
 ## 🎯 Objetivos Técnicos
+- Resolução de problemas vivênciados por mim nessas areás citadas.
 - Aplicar conhecimento prático em banco de dados relacional
 - Demonstrar uso avançado de recursos do SQL Server
 - Criar um portfólio técnico focado em soluções reais
@@ -53,5 +58,5 @@ Simula um ambiente escolar com controle de alunos, cursos, matrículas e notas.
 
 ## 📌 Observações
 - Os dados utilizados são fictícios, criados apenas para fins de aprendizado.
-- Projetos em constante evolução.
+- Os Projetos estão em constante evolução.
 

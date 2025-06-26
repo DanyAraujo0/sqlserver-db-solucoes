@@ -4,15 +4,13 @@ Nesta pasta contém o projeto de um banco de dados relacional completo, chamado 
 
 
 ## 💡 Motivação
-A inspiração para o MedTrack nasceu da minha experiência prática no setor de saúde. Durante meu estágio como Técnica em Informática no setor de Faturamento de um hospital municipal, tive a oportunidade de observar de perto o fluxo de informações de um paciente, desde sua chegada até a alta e o subsequente processo de faturamento.
+A inspiração para o MedTrack nasceu da minha experiência prática no setor de saúde. Durante meu **estágio como Técnica em Informática no setor de Faturamento de um Hospital Municipal**, tive a oportunidade de observar de perto o fluxo de informações de um paciente, desde sua chegada até a alta e o subsequente processo de faturamento.
 
 Percebi em primeira mão os desafios diários enfrentados pela equipe:
 
-Acesso Fragmentado à Informação: A busca por históricos de pacientes em prontuários físicos ou em sistemas legados era lenta e, muitas vezes, incompleta.
-
-Risco de Inconsistência: Informações cruciais, como alergias a medicamentos, nem sempre estavam atualizadas ou facilmente acessíveis, representando um risco à segurança do paciente. Ou até mesmo a perda do prontuário fisíco.
-
-Ineficiência no Faturamento: A dificuldade em conectar diagnósticos, procedimentos realizados e medicamentos prescritos de forma clara e direta gerava gargalos e potenciais erros no faturamento dos atendimentos.
+- Acesso Fragmentado à Informação: **A busca por históricos de pacientes em prontuários físicos** ou em sistemas legados era lenta e, muitas vezes, incompleta. 
+- Risco de Inconsistência: Informações cruciais, como alergias a medicamentos, nem sempre estavam atualizadas ou facilmente acessíveis, **representando um risco à segurança do paciente**. Ou até mesmo a perda do prontuário fisíco, fazendo com que não fosse faturado, e se caso o **paciente precisasse do seu prontúario não seria possível receber** (algo muito recorrente pois poderia ser usado como atestado medico, ou uma forma de alibe para a justiça e polícia).
+- Ineficiência no Faturamento: A dificuldade em conectar diagnósticos, procedimentos realizados e medicamentos prescritos de forma clara e direta gerava gargalos e **potenciais erros no faturamento dos atendimento**.
 
 Então a partir dai compreendi que um banco de dados bem estruturado e centralizado não é apenas um requisito técnico, mas uma ferramenta fundamental para aumentar a eficiência operacional, reduzir erros e, acima de tudo, melhorar a qualidade do atendimento ao paciente.
 
@@ -46,7 +44,7 @@ Tabelas de Associação (Muitos-para-Muitos):
 
 
 ## 🚀 Recursos Avançados
-Para demonstrar conhecimentos além da simples modelagem, o projeto inclui exemplos de código SQL que automatizam processos e otimizam consultas.
+Para demonstrar conhecimentos além da simples modelagem, o projeto inclui exemplos de código SQL que automatizam processos e otimizam consultas. Vizando também a resolução dos problemas enfrentados citados anteriomente.
 
 Stored Procedures: **localizado em [MedTrackProcedure](MedTrackProcedure.sql)**.
 
