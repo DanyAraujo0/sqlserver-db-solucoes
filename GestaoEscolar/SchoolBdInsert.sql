@@ -28,6 +28,13 @@ INSERT INTO Disciplinas (NomeDisciplina, IdTurma, IdProfessor) VALUES
 ('Matemática', 2, 101), -- IdDisciplina = 4 (Matemática para 9º B com Prof. Ana)
 ('Literatura', 3, 102); -- IdDisciplina = 5 (Literatura para 3º EM com Prof. Carlos)
 
+INSERT INTO Frequencias (DataFrequencia,IdMatricula,IdDisciplina,Situacao) VALUES 
+('2025-06-24', 1001 , 1 ,'p'), -- Lucas esteve presente na aula de matematica
+('2025-06-24', 1002 , 1 ,'p'), -- Sofia esteve presente na aula de matematica
+('2025-06-24', 1001 , 2 ,'p'), -- Lucas esteve presente na aula de portugues
+('2025-06-23', 1003 , 3 ,'f'), -- Gabriel não esteve presente na aula de história
+('2025-06-23', 1004 , 5 ,'f'); -- Julia não esteve presente na aula de literatura
+
 INSERT INTO Notas (IdDisciplina, IdMatricula, Nota, DataLancamento) VALUES
 (1, 1001, 8.50, '2025-03-15'), -- Lucas em Matemática
 (2, 1001, 7.00, '2025-03-16'), -- Lucas em Português

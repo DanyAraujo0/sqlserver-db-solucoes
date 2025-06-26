@@ -55,3 +55,13 @@ CREATE TABLE Notas (
     FOREIGN KEY (IdDisciplina) REFERENCES Disciplinas(IdDisciplina),
     FOREIGN KEY (IdMatricula) REFERENCES Alunos(IdMatricula)
 );
+
+CREATE TABLE Frequencias (
+    IdFrequencia SMALLINT PRIMARY KEY IDENTITY(1,1),
+    DataFrequencia DATE NOT NULL,
+    IdMatricula INT NOT NULL,
+    IdDisciplina SMALLINT NOT NULL,
+    Situacao CHAR NOT NULL,
+    FOREIGN KEY (IdMatricula) REFERENCES Alunos(IdMatricula),
+    FOREIGN KEY (IdDisciplina) REFERENCES Disciplinas(IdDisciplina)
+);
